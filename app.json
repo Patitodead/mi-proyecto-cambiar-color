@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "mi proyecto cambiar color",
+    "slug": "mi-proyecto-cambiar-color",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B1220",
+    "ios": {
+      "bundleIdentifier": "com.tutorial.miproyectocambiarcolorjs",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.tutorial.miproyectocambiarcolorjs",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1220"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
